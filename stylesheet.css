@@ -1,0 +1,57 @@
+body{
+	margin-right: 400px;
+}
+hr{
+	height: 3px;
+	border: none;
+	background-color: #6E6E6E;
+	font: lighter;
+}
+h1{
+	display: inline-block;
+	color: #6E6E6E;
+}
+#email, #about, h1, h3, .p1, .loc, ul{
+	font-family: Arial;
+}
+
+#about{
+	width: 600px;
+	color: #6E6E6E;
+	margin-bottom: 20px;
+}
+
+img{ 
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	height: 250px;
+	width: 200px;
+	transform: rotate(-7deg);
+	z-index: 1;
+}
+
+h3{
+	margin-left: 50px; 
+	float: left;
+	display: inline;
+}
+
+.p1{
+	margin-left: 200px;
+	border-left: 3px solid #6E6E6E;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	width: 650px;
+}
+
+.loc{
+	float: right; 
+	color: #6E6E6E;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
